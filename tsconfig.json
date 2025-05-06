@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "ESNext",
+    "target": "es2020",
+    "module": "esnext",
     "moduleResolution": "node",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
+     "resolveJsonModule": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
     "sourceMap": true
